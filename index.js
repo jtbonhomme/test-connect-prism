@@ -5,11 +5,13 @@ var prism = require('connect-prism');
 prism.useVerboseLog();
 
 prism.create({
-  name: 'imgages',
-  mode: 'record',
+  name: 'images',
+  mode: 'mockrecord',
   context: '/images',
   host: '192.168.1.10'
+//  host: '10.0.0.66'
 });
+
 
 var app = connect()
   .use(prism.middleware);

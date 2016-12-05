@@ -8,11 +8,9 @@
   },
   "author": "Jean-Thierry Bonhomme <jtbonhomme@gmail.com>",
   "license": "ISC",
-  "devDependencies": {
-    "connect": "^3.5.0",
-    "connect-prism": "^1.0.6"
-  },
+  "devDependencies": {},
   "dependencies": {
-    "connect-prism": "^1.0.6"
+    "connect": "^3.5.0",
+    "connect-prism": "git://github.com/jtbonhomme/connect-prism.git#follow-redirect"
   }
 }
